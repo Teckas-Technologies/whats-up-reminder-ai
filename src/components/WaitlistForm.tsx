@@ -10,7 +10,7 @@ const WaitlistForm = ({ children }: WaitlistFormProps) => {
 
   useEffect(() => {
     if (!isOpen) return;
-
+ 
     const script = document.createElement("script");
     script.src = "https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js";
     script.async = true;
