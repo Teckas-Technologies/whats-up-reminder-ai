@@ -1,5 +1,5 @@
-
 import { Button } from "@/components/ui/button";
+import WaitlistForm from "@/components/WaitlistForm";
 
 const Hero = () => {
   return (
@@ -46,9 +46,11 @@ const Hero = () => {
             <p className="text-lg font-medium text-primary">
               Join the waitlist for early access
             </p>
-            <Button size="lg" className="text-lg px-12 py-8 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-0">
-              Join the Waitlist 🚀
-            </Button>
+            <WaitlistForm>
+              <Button size="lg" className="text-lg px-12 py-8 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-0">
+                Join the Waitlist 🚀
+              </Button>
+            </WaitlistForm>
           </div>
         </div>
       </div>

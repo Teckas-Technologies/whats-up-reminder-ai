@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import WaitlistForm from "@/components/WaitlistForm";
 
 const FinalCTA = () => {
   return (
@@ -19,9 +20,11 @@ const FinalCTA = () => {
           </div>
 
           <div className="animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-            <Button size="lg" className="text-2xl px-16 py-10 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-0">
-              👉 Yes, Remind Me First
-            </Button>
+            <WaitlistForm>
+              <Button size="lg" className="text-2xl px-16 py-10 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-0">
+                👉 Yes, Remind Me First
+              </Button>
+            </WaitlistForm>
           </div>
         </div>
       </div>

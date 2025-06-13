@@ -1,5 +1,5 @@
-
 import { Button } from "@/components/ui/button";
+import WaitlistForm from "@/components/WaitlistForm";
 
 const Bonus = () => {
   const bonuses = [
@@ -37,9 +37,11 @@ const Bonus = () => {
               </div>
 
               <div className="animate-fade-in" style={{ animationDelay: '0.8s', animationFillMode: 'both' }}>
-                <Button size="lg" className="text-xl px-12 py-8 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-0">
-                  Join the Waitlist Now
-                </Button>
+                <WaitlistForm>
+                  <Button size="lg" className="text-xl px-12 py-8 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-0">
+                    Join the Waitlist Now
+                  </Button>
+                </WaitlistForm>
                 <p className="text-sm text-muted-foreground mt-6 flex items-center justify-center gap-2">
                   <span className="text-green-600">🔒</span>
                   No spam. Just smart reminders.
