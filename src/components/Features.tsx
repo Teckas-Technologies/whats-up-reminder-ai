@@ -1,11 +1,11 @@
 
 const Features = () => {
   const features = [
-    "Remind you of tasks, meetings, calls, anything",
-    "Sync with your Google/Outlook Calendar", 
-    "Voice call for high-priority reminders",
-    "Customize reminder time (10 mins before, exact time, etc.)",
-    "Works 24/7 — even when your calendar forgets"
+    "📅 Auto-sync with Google/Outlook Calendar events",
+    "🔔 Smart reminders for meetings, calls, and tasks", 
+    "📞 Voice call alerts for high-priority events",
+    "⏰ Customizable timing (10 mins before, exact time, etc.)",
+    "🌙 Works 24/7 — never miss another calendar event"
   ];
 
   return (
@@ -16,7 +16,7 @@ const Features = () => {
             What It Can Do
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to stay on top of your life
+            Everything you need to stay on top of your calendar and tasks
           </p>
         </div>
 

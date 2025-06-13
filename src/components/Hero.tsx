@@ -17,7 +17,7 @@ const Hero = () => {
           
           <div className="animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
             <h2 className="text-2xl md:text-3xl font-medium mb-12 text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Your AI reminder agent lives in WhatsApp. Just text it naturally.
+              Your AI reminder agent lives in WhatsApp. Syncs with your calendar and reminds you naturally.
             </h2>
           </div>
           
@@ -26,13 +26,18 @@ const Hero = () => {
               <p className="text-sm text-muted-foreground mb-3 font-medium">
                 Just text it like a friend:
               </p>
-              <div className="bg-green-50 border border-green-200 rounded-2xl p-4">
+              <div className="bg-green-50 border border-green-200 rounded-2xl p-4 mb-3">
                 <p className="text-green-800 font-medium text-lg">
                   "Remind me to call dad tomorrow 8am"
                 </p>
               </div>
+              <div className="bg-blue-50 border border-blue-200 rounded-2xl p-4">
+                <p className="text-blue-800 font-medium text-lg">
+                  "Check my calendar for tomorrow's meetings"
+                </p>
+              </div>
               <p className="text-sm text-muted-foreground mt-3 font-medium">
-                → It handles the rest
+                → Auto-syncs with Google/Outlook Calendar
               </p>
             </div>
           </div>

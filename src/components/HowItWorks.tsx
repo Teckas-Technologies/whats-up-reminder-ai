@@ -7,18 +7,18 @@ const HowItWorks = () => {
       description: "Just send a message like:",
       examples: [
         '"I have a task at 10am tomorrow"',
-        '"Pick up mom at 5pm"'
+        '"Remind me 30 mins before my 3pm meeting"'
       ]
     },
     {
       number: "2", 
-      title: "It Understands You",
-      description: "No forms. No typing dates manually. Our AI parses your message and sets a reminder."
+      title: "Auto Calendar Sync",
+      description: "Connects to Google/Outlook Calendar. Sets reminders for existing events or creates new ones from your messages."
     },
     {
       number: "3",
       title: "Get Notified, Your Way", 
-      description: "Choose WhatsApp message or voice call. You'll never miss the important stuff again."
+      description: "WhatsApp message or voice call. Perfect timing for every reminder, whether it's a quick task or important meeting."
     }
   ];
 
