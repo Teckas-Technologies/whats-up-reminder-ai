@@ -3,20 +3,26 @@ import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-primary/10 via-background to-green-500/10">
+    <section className="py-32 bg-gradient-to-br from-primary/5 via-background to-green-500/5">
       <div className="container mx-auto px-6 text-center">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-6xl font-bold mb-8 text-foreground">
-            🔔 Don't Let Life Slip Through the Cracks.
-          </h2>
+        <div className="max-w-4xl mx-auto">
+          <div className="animate-fade-in">
+            <h2 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent leading-tight">
+              Don't Let Life Slip Through the Cracks.
+            </h2>
+          </div>
           
-          <p className="text-xl text-muted-foreground mb-12">
-            Join the waitlist and be the first to get your own AI reminder agent.
-          </p>
+          <div className="animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+            <p className="text-2xl text-muted-foreground mb-12 leading-relaxed">
+              Join the waitlist and be the first to get your own AI reminder agent.
+            </p>
+          </div>
 
-          <Button size="lg" className="text-xl px-12 py-8 bg-green-600 hover:bg-green-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-            👉 Yes, Remind Me First
-          </Button>
+          <div className="animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
+            <Button size="lg" className="text-2xl px-16 py-10 bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-0">
+              👉 Yes, Remind Me First
+            </Button>
+          </div>
         </div>
       </div>
     </section>
